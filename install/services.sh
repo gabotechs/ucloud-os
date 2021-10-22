@@ -6,3 +6,5 @@ cp services/octoprint.service /etc/systemd/system/
 cp services/dbus-org.bluez.service /etc/systemd/system/
 
 systemctl daemon-reload
+systemctl enable ucloud-thing
+systemctl enable octoprint
