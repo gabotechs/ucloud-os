@@ -2,6 +2,7 @@
 set -e
 
 git clone "$UCLOUD_THING_REPO" "$UCLOUD_THING_PATH"
+git chekcout stable
 
 cd "$UCLOUD_THING_PATH"
 
