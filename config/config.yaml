@@ -1,0 +1,48 @@
+accessControl:
+  salt: gDebdFmtO5dvBLEGOl43gRJ3rSTwilRu
+api:
+  key: 6A9696BA71F04E5190FDF90A094A0D0C
+gcodeAnalysis:
+  runAt: never
+plugins:
+  announcements:
+    _config_version: 1
+  discovery:
+    upnpUuid: 672e2455-32b6-4fe1-9b5d-a1a4a436098a
+  errortracking:
+    unique_id: c620ab8a-0584-4f79-bd5c-318470626a92
+  gcodeviewer:
+    _config_version: 1
+  softwareupdate:
+    _config_version: 9
+  tracking:
+    enabled: false
+    unique_id: 0b0186dd-d6a3-491e-8072-c380db5ff167
+  virtual_printer:
+    _config_version: 1
+printerProfiles:
+  default: _default
+server:
+  commands:
+    serverRestartCommand: sudo service octoprint restart
+    systemRestartCommand: sudo shutdown -r now
+    systemShutdownCommand: sudo shutdown -h now
+  firstRun: false
+  onlineCheck:
+    enabled: false
+  pluginBlacklist:
+    enabled: false
+  secretKey: jqFYKgEjiH4FInP8yd5npHRlsKC0yGo7
+  seenWizards:
+    corewizard: 3
+    tracking: null
+temperature:
+  profiles:
+  - bed: 100
+    chamber: null
+    extruder: 240
+    name: ABS
+  - bed: 60
+    chamber: null
+    extruder: 210
+    name: PLA

@@ -1,0 +1,12 @@
+ucloud:
+  active: true
+  apikey: null
+  groups:
+  - admins
+  - users
+  password: 873867e766ca3cd48ad40aaf6933156cc9bdf169634220125484324eb89205b6b1d90917de6dcc94e724d035d6f69fd4b5be7a8a8e77329d79f7feb414b3e6c4
+  permissions: []
+  roles:
+  - user
+  - admin
+  settings: {}
