@@ -8,3 +8,6 @@ cp services/dbus-org.bluez.service /etc/systemd/system/
 systemctl daemon-reload
 systemctl enable ucloud-thing
 systemctl enable octoprint
+
+systemctl start octoprint
+systemctl start ucloud-thing
