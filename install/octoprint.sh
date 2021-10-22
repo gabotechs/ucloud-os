@@ -12,3 +12,6 @@ python3 -m venv venv
 source venv/bin/activate
 pip install pip --upgrade
 pip install octoprint
+
+chown -R pi "$OCTOPRINT_PATH"
+chown -R pi "$OCTOPRINT_CONFIG_PATH"
