@@ -8,7 +8,7 @@ Environment="LC_ALL=C.UTF-8"
 Environment="LANG=C.UTF-8"
 Restart=on-failure
 Type=exec
-User=root
+User=pi
 ExecStart=/home/pi/OctoPrint/venv/bin/octoprint
 
 [Install]
