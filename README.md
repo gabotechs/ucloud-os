@@ -1,4 +1,4 @@
-# UCloud os installer
+# UCloud OS installer
 
 The base OS should be Raspberry Pi OS, can be installed directly with rpi-imager in 
 any sd card. https://www.raspberrypi.com/software/.
